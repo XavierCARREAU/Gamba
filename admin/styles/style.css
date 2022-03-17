@@ -1,0 +1,55 @@
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.container{
+	width: 970px;
+	margin: auto;
+}
+h1,h2{
+	font-size: 30px;
+	padding-top: 30px;
+}
+
+	ul{
+		list-style: none;
+		padding: 0px;
+		margin: 0px;
+	}
+	ul>li{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	ul>li>span{
+		padding: 5px;
+	}
+	ul>li img{
+		width: 50px;
+		border: 1px solid #333;
+	}
+ul>li:nth-child(even){background: #CCC}
+ul>li:nth-child(odd){background: #FFF}
+
+.updateForm{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+.updateForm>label{
+	display: flex;
+	flex-direction: column;
+	padding: 10px 0px;
+}
+.delete,.add{
+	background: #c0392b;
+	border: none;
+	color: #fff;
+	border-radius: 5px;
+	padding: 10px;
+}
+.add{
+	background: #2980b9;
+}
